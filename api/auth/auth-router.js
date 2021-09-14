@@ -31,6 +31,8 @@ router.post("/register", validateRoleName, (req, res, next) => {
 
 
 router.post("/login", checkUsernameExists, (req, res, next) => {
+  let 
+
   /**
     [POST] /api/auth/login { "username": "sue", "password": "1234" }
 
